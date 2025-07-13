@@ -1,6 +1,6 @@
 import express from "express";
-const authController = require("./controllers/authController");
 import Otp from "./controllers/OtpController";
+const authController = require("./controllers/authController");
 const app = express();
 app.use(express.json());
 
